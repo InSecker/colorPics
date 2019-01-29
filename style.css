@@ -1,3 +1,16 @@
+h1 {
+  margin: 5px 0;
+  color: white;
+  text-align: center;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 20px
+}
+
+.maj {
+  font-size: 30px;
+}
+
+
 body {
   background-color: black;
 }
@@ -19,3 +32,4 @@ canvas {
   margin-right: auto;
   display: block;
 }
+
