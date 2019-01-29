@@ -1,9 +1,13 @@
 h1 {
-  margin: 5px 0;
+  padding: 5px 0;
   color: white;
   text-align: center;
   font-family: 'Major Mono Display', monospace;
-  font-size: 20px
+  font-size: 20px;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.199);
 }
 
 .maj {
@@ -12,7 +16,8 @@ h1 {
 
 
 body {
-  background-color: black;
+  background-image: url('./assets/img/prism.png');
+  background-repeat: true;
 }
 
 
@@ -31,5 +36,6 @@ canvas {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.212);
 }
 
